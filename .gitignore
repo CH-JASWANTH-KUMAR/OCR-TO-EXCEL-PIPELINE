@@ -1,0 +1,16 @@
+.env
+outputs/
+logs/
+images/
+backup_images/
+**pycache**/
+
+*.xlsx
+*.csv
+*.json
+
+*.jpeg
+*.jpg
+*.png
+
+*.pyc
