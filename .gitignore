@@ -1,16 +1,80 @@
+# Environment files
+
 .env
+.envrc
+
+# Project outputs
+
 outputs/
 logs/
 images/
 backup_images/
+
+# Python cache
+
 **pycache**/
+*.py[codz]
+*$py.class
+*.pyc
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Build / distribution
+
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
+
+# Coverage / testing
+
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# VS Code
+
+.vscode/
+
+# Ruff / mypy / pytype
+
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+
+# OCR project generated files
 
 *.xlsx
 *.csv
 *.json
 
+# Images
+
 *.jpeg
 *.jpg
 *.png
 
-*.pyc
+# Logs
+
+*.log
+
+# Temporary files
+
+tempCodeRunnerFile.py
